@@ -18,7 +18,7 @@ variables:
   - name: 'Project'
     value: 'Arcus.Template'
   - name: 'Repository'
-    value: 'azure-arcus/arcus.template'
+    value: 'arcus-azure/arcus.template'
   # 'Package.Version' is added as queue-time variable on build in Azure DevOps
 
 stages:
