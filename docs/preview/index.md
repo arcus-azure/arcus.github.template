@@ -2,8 +2,9 @@
 title: "Home"
 layout: default
 permalink: /
-redirect_from:
- - /index.html
+slug: /
+sidebar_label: Welcome
+sidebar_position: 1
 ---
 
 [![NuGet Badge](https://buildstats.info/nuget/Arcus.{Component}?includePreReleases=true)](https://www.nuget.org/packages/Arcus.{Component}/)
