@@ -1,4 +1,4 @@
 variables:
-  DotNet.Sdk.Version: '2.2.105'
+  DotNet.Sdk.Version: '6.0.100'
   Project: 'Arcus.Template'
   Vm.Image: 'ubuntu-latest'
