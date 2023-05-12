@@ -72,7 +72,7 @@ namespace Arcus.Template.Tests.Integration.Configuration
         /// <returns>The configuration value.</returns>
         public string this[string key]
         {
-            get => _implementation[key];
+            get => _implementation[key] ?? throw new KeyNotFoundException($"Could not find test configuration value by key '{key}', make sure to add an entry in the 'appsettings.*.json' file");
             set => _implementation[key] = value;
         }
     }
