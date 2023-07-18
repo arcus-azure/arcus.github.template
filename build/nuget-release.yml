@@ -3,10 +3,6 @@ name: $(Package.Version)
 parameters:
   - name: 'Package.Version'
     type: 'string'
-  - name: 'Prerelease'
-    displayName: 'Prerelease string (ex. -alpha, -alpha1, -BETA, -update20171020) or none'
-    type: 'string'
-    default: 'none'
 
 trigger: none
 pr: none
