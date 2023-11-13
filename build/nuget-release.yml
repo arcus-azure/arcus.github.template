@@ -1,5 +1,9 @@
 name: $(Package.Version)
 
+parameters:
+  - name: 'Package.Version'
+    type: 'string'
+
 trigger: none
 pr: none
 
